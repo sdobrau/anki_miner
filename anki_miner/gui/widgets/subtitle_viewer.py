@@ -12,7 +12,7 @@ from PyQt6.QtWidgets import (
     QVBoxLayout,
 )
 
-from anki_miner.gui.constants import SUBTITLE_OFFSET_MAX, SUBTITLE_OFFSET_MIN
+from anki_miner.gui.constants import SUBTITLE_OFFSET_MIN, SUBTITLE_OFFSET_MAX
 from anki_miner.gui.widgets.subtitle_player_widget import SubtitlePlayerWidget
 
 logger = logging.getLogger(__name__)
